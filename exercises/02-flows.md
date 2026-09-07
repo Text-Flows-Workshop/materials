@@ -65,9 +65,12 @@ for.
 
 ### ✅ Self-check
 
-Your checklist (step 4.2) contains at least one action item you would have
-forgotten if you'd typed a tidy summary from memory. If it doesn't, your
-braindump was too tidy — do 90 more seconds, faster.
+Compare the model's structured list against your spoken braindump on two
+counts: (1) every specific detail you *named aloud* (a person, a date, a
+number) survives into the list, and (2) the list contains **no items you
+never said** — models sometimes helpfully invent a plausible task. Either
+kind of mismatch is the finding: the technique's value and its failure
+modes, both visible in one pass.
 
 ---
 

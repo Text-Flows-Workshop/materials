@@ -6,7 +6,7 @@ A recurring theme below, stated once so we don't repeat it four times: in every 
 
 > Use LLMs to **displace** effort, not to **replace** your intentionality.
 
-Each "after" ends with a human read-through for exactly that reason. The time saved is real, but it is saved on the mechanical part, not the thinking part.
+Each "after" ends with a human read-through for exactly that reason. **A note on the scenarios and time estimates: they are illustrative and unmeasured** — composed to teach the workflow shape, not records of timed runs. Where a "before/after" difference is claimed, read it as the authors' honest estimate of where the friction sits (the mechanical part, not the thinking part), pending anyone's actual stopwatch.
 
 ---
 
@@ -242,4 +242,4 @@ Please: (1) explain what this error most likely means in plain terms, (2) list t
 | What the model gets | An underspecified request | Engineered context: instructions separated from data |
 | What you keep | (everything, exhaustedly) | The opinion, the emphasis, the verification, the signature |
 
-The review pass is not optional overhead — it *is* the workflow. In each example the model's output needed a human catch: the letter that over-praises, the "action item" nobody committed to, the restructured number that drifted, the fix that would delete a draft. Displace the effort; never the intentionality.
+The review pass is not optional overhead — it *is* the workflow. Each example names the kind of defect to *anticipate* in the model's output: the letter that over-praises, the "action item" nobody committed to, the restructured number that drifted, the fix that would delete a draft. These are anticipated failure modes drawn from experience with these task shapes, not preserved outputs from measured runs. Displace the effort; never the intentionality.

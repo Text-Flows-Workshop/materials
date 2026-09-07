@@ -92,7 +92,20 @@ Two paths:
 
 ---
 
-## 3 · Quick-Reference Links
+## 3 · Dated corrections for current reuse (September 2026)
+
+The answers above reproduce what was said live in July 2025, and two of
+them contain errors we preserve rather than silently rewrite (the FAQ is
+a historical record); correct them when reusing:
+
+- **Q2 (tokens)**: a token is roughly **three-quarters** of an English
+  word (so ~750 words ≈ 1,000 tokens), not one-third; the ratio varies
+  by language and tokenizer.
+- **Q7 (shelf tools)**: **Unclutter is macOS software**, not a Windows
+  equivalent. For Windows shelves, see DropPoint or Dropshelf (as in
+  the worksheet); Pasteboard also offers a Windows product.
+
+## 4 · Quick-Reference Links
 
 * **Yoink** (macOS shelf) — [eternalstorms.at/yoink](https://eternalstorms.at/yoink/)
 * **MacWhisper / superwhisper** — [goodsnooze.gumroad.com](https://goodsnooze.gumroad.com/l/macwhisper) / [superwhisper.com](https://superwhisper.com/)

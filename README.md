@@ -38,6 +38,14 @@ copy-paste labor is a learnable, improvable craft.
 All participant-facing evidence in `results/` is aggregate-only; the FAQ
 attributes questions to role-anonymous participant labels.
 
+**Provenance boundary** (which files are the 2025 delivery's, and which
+are new): the deck, worksheet, FAQ, and facilitation guide in
+`workshop/` are the delivery's own artifacts, de-branded and
+de-identified. The `exercises/`, `guides/`, and `workflows/` directories
+were **authored for this release (September 2026)** as the reusable
+guided-practice layer the delivery improvised live — a menu for
+adopters, not a record of what ran.
+
 ## The idea, in one paragraph
 
 Most AI-literacy training teaches *prompting*. But watch anyone work with

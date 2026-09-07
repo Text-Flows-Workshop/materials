@@ -91,20 +91,25 @@ is just another station your text flows through, not a members-only club.
 2. **Look at your clipboard from the terminal:**
    - macOS: `pbpaste`
    - Windows: `Get-Clipboard`
-   - Linux: `xclip -o` (or `wl-paste`)
+   - Linux (Wayland): `wl-paste`
+   - Linux (X11): `xclip -selection clipboard -o` — the `-selection
+     clipboard` matters: plain `xclip -o` reads X11's separate
+     "primary" selection (last mouse-highlight), not what you copied
+     with Ctrl-C
 
    Your clipboard's plain-text contents print right there. Same clipboard,
    new window into it.
 3. **Pipe it through a tool.** The `|` character means "send the output of
    the left command into the right command":
-   - macOS/Linux: `pbpaste | wc -w` — word count of your clipboard.
+   - macOS: `pbpaste | wc -w` — word count of your clipboard
+   - Linux: `wl-paste | wc -w` (Wayland) or `xclip -selection clipboard -o | wc -w` (X11)
    - Windows: `(Get-Clipboard | Measure-Object -Word).Words`
 4. One more, on a *list*: copy a handful of lines (names, tasks, anything,
    one per line), then sort your clipboard alphabetically:
-   - macOS/Linux: `pbpaste | sort`
+   - macOS: `pbpaste | sort` (Linux: substitute your paste command from step 2)
    - Windows: `Get-Clipboard | Sort-Object`
 
-   Bonus (macOS/Linux): round-trip it — `pbpaste | sort | pbcopy` — and
+   Bonus (macOS): round-trip it — `pbpaste | sort | pbcopy` — (Linux: `... | wl-copy`, or `... | xclip -selection clipboard`) and
    paste anywhere: your clipboard now *contains* the sorted list.
 5. Where this road leads (optional, for later): CLI chat tools like
    [Chatblade](https://github.com/npiv/chatblade) accept piped text — so
