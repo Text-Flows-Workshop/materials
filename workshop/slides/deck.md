@@ -391,7 +391,7 @@ My Notes:
 | macOS | `pbpaste` | `pbcopy` | Yes |
 | Windows | `Get-Clipboard` | `Set-Clipboard` | Yes (PowerShell) |
 | WSL | `powershell.exe Get-Clipboard` | `powershell.exe Set-Clipboard` | Yes (PowerShell) |
-| Linux/X11 | `xclip -o` or `xsel --clipboard --output` | `xclip` or `xsel` | No |
+| Linux/X11 | `xclip -selection clipboard -o` or `xsel --clipboard --output` | `xclip -selection clipboard` or `xsel --clipboard --input` | No |
 | Linux/Wayland | `wl-paste` | `wl-copy` | No |
 
 A small shell script (link withheld during anonymous review) concatenates a whole folder of files into one delimited block ready to paste into an LLM:

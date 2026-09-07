@@ -149,8 +149,9 @@ you're gathering context (like screenshots) to share with a model.
 
 Talking to a model is often better than typing: you skip the work of
 pre-structuring your thoughts, and useful details slip out. Modern local
-transcription can turn an hour of audio into text — with speaker labels —
-in about 30 seconds.
+transcription can turn long recordings into text — many tools with speaker
+labels — in a small fraction of listening time; exact speed depends on
+your hardware, the model, and settings.
 
 ### MacWhisper (macOS, free version + paid Pro)
 

@@ -87,7 +87,7 @@ You ran a one-hour working-group meeting — say, the committee planning the fal
 
 ### After
 
-1. **Transcribe locally** (about 30 seconds): a modern local transcription app (MacWhisper or similar) turns the hour of audio into a diarized transcript — speaker-labeled text — in roughly half a minute, on your own machine. Local matters here: the audio never leaves your computer, and only the *text* you choose goes to the model.
+1. **Transcribe locally**: a modern local transcription app (MacWhisper or similar) turns the hour of audio into a diarized transcript — speaker-labeled text — far faster than listening to it (speed depends on hardware, model, and settings), on your own machine. Local matters here: the audio never leaves your computer, and only the *text* you choose goes to the model.
 2. **Skim and redact** (3–5 min): scan the transcript. Meetings wander — if ten minutes were spent on a sensitive personnel aside, cut those lines before sharing. This is context engineering: you choose what the model sees.
 3. **Assemble the prompt** (2 min): instructions, then the agenda and the transcript, each in its own `"""` block. The agenda is the secret ingredient — it gives the model the *intended* structure to reconcile the wandering conversation against.
 4. **Verify names and commitments** (5–10 min): diarization mislabels speakers sometimes, and "I could maybe look into that" is not the same as "I'll do it." Check every (owner, action, deadline) triple against your memory of the room before sending. Then send — same afternoon.

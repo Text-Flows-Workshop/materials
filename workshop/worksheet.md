@@ -69,7 +69,7 @@ This is useful when communicating extensively with a model about your context �
 
 It is often useful to give instructions to models directly by voice. This saves you from having to structure and type your thought. The model doesn't mind — and benefits from the additional details that slip out when we are not busy summarizing our own cognition.
 
-**Modern local transcription apps can transcribe an hour of audio, with speaker identification (*diarization*), in about 30 seconds.**
+**Modern local transcription apps can produce searchable transcripts of long recordings, many with speaker identification (*diarization*); processing time depends on hardware, model, and settings — a small fraction of listening time on recent machines.**
 
 * [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) (macOS)
 * [superwhisper](https://superwhisper.com/) (macOS, Windows beta)
@@ -88,7 +88,7 @@ In general, your workflows are enhanced by **tools that take pure plain text as 
 
 * [slides.com](https://slides.com): Markdown-importable slides
 * Terminal utilities
-   * Clipboard: `pbpaste`, `pbcopy` (macOS); `Get-Clipboard` (Windows); `xclip` / `wl-paste` (Linux)
+   * Clipboard: `pbpaste`, `pbcopy` (macOS); `Get-Clipboard` (Windows); `wl-paste` (Wayland) / `xclip -selection clipboard` (X11)
    * CLI chat: [Chatblade](https://github.com/npiv/chatblade)
    * Agentic clients: `claude-code`, `codex`
    * AI-native IDEs: `windsurf`, `cursor`

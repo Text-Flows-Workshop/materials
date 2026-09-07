@@ -91,8 +91,9 @@ sits in meetings.
      *Show transcript*, then select-all and copy — a ragged copy is fine,
      you know how to handle mess now).
    - A recording of your own, transcribed with one of the Exercise 2.1
-     apps — modern local transcription does an hour of audio, with speaker
-     identification, in about 30 seconds.
+     apps — modern local transcription handles long recordings, often with
+     speaker identification, far faster than listening time (speed depends
+     on your hardware, model, and settings).
 
    ⚠️ Use a transcript you're allowed to process, and mind your
    organization's rules about what may be pasted into which model
